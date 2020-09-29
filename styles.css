@@ -1,0 +1,36 @@
+body{
+    background-color: grey;
+}
+#header{
+
+    font-family:  Roboto, sans-serif;
+    font-size: large;
+    font-style:inherit;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: ;
+    text-indent: 30;
+    text-transform:inherit;
+    color:gold (177, 233, 24);
+    word-spacing: 10px;
+    line-height: ;
+}
+#content {
+    padding: 10px 10px 10px 10px;
+
+}
+#nav{
+    width: 180px;
+    float: left;
+}
+#nav ul {
+    list-style-type:none;
+
+}
+#main{
+    width: 600px; ;
+    float: right;
+}
+#footer{
+    clear: both; 
+}

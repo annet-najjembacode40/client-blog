@@ -1,36 +1,58 @@
 body{
     background-color: grey;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: ivory;
+}
+
+#container {
+    background-color:greenyellow;
+    width: 800px;
+    margin-left:auto;
+    margin-right: auto;
 }
 #header{
-
-    font-family:  Roboto, sans-serif;
-    font-size: large;
-    font-style:inherit;
-    font-weight: 400;
+    background-color: greenyellow;
+    color: honeydew;
     text-align: center;
-    text-decoration: ;
-    text-indent: 30;
-    text-transform:inherit;
-    color:gold (177, 233, 24);
-    word-spacing: 10px;
-    line-height: ;
-}
+    padding: 10px;
+} 
 #content {
     padding: 10px 10px 10px 10px;
 
 }
+#nav.selected
 #nav{
     width: 180px;
     float: left;
 }
+#nav ul{
+    list-style: none;
+    padding:0 ;
+
+}
+}
+.selected
+    font-weight:bold;
 #nav ul {
     list-style-type:none;
+    padding: 0px;
 
 }
 #main{
     width: 600px; ;
     float: right;
 }
+.grid div:nth-child(even) {
+    background-image: ;
+
+}
 #footer{
     clear: both; 
+    padding: 10px;
+    background-color: greenyellow;
+    color: honeydew;
+    text-align-last: right;
 }
